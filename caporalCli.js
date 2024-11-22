@@ -42,8 +42,8 @@ cli
 	.command('readme', 'Display the README.txt file')
 	.action(({logger}) => {
 		return logger.info("hello");
-		});
-	)
+		})
+	
 	
 	
 	// search
