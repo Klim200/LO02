@@ -41,7 +41,7 @@ cli
 	// readme
 	.command('readme', 'Display the README.txt file')
 	.action(({logger}) => {
-		logger.info("hello");
+		return logger.info("hello");
 		});
 	})
 	
