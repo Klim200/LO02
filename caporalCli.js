@@ -2,6 +2,7 @@ const fs = require('fs');
 const colors = require('colors');
 const VpfParser = require('./VpfParser.js');
 
+
 const vg = require('vega');
 const vegalite = require('vega-lite');
 
@@ -38,9 +39,9 @@ cli
 	})
 	
 	// readme
-	//.command('readme', 'Display the README.txt file')
-	//.action(function(args, options, logger){
-	//  ...
+	.command('readme', 'Display the README.txt file')
+	.action(function(args, options, logger){
+		logger.info("hello")
 	//})
 	
 	
