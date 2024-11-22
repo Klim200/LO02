@@ -43,7 +43,7 @@ cli
 	.action(({logger}) => {
 		return logger.info("hello");
 		});
-	})
+	)
 	
 	
 	// search
