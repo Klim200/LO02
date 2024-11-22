@@ -40,7 +40,7 @@ cli
 	
 	// readme
 	.command('readme', 'Display the README.txt file')
-	.action(function(args, options, logger){
+	.action(({logger}) => {
 		logger.info("hello");
 		});
 	})
